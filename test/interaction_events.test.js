@@ -34,10 +34,10 @@ import {
 } from './utils/key_events';
 
 function runTests() {
-  const pointButton = controlGroup.getElementsByClassName('mapbox-gl-draw_point')[0];
-  const lineCutton = controlGroup.getElementsByClassName('mapbox-gl-draw_line')[0];
-  const trashButton = controlGroup.getElementsByClassName('mapbox-gl-draw_trash')[0];
-  const polygonEutton = controlGroup.getElementsByClassName('mapbox-gl-draw_polygon')[0];
+  const pointButton = controlGroup.getElementsByClassName('maplibre-gl-draw_point')[0];
+  const lineCutton = controlGroup.getElementsByClassName('maplibre-gl-draw_line')[0];
+  const trashButton = controlGroup.getElementsByClassName('maplibre-gl-draw_trash')[0];
+  const polygonEutton = controlGroup.getElementsByClassName('maplibre-gl-draw_polygon')[0];
 
   // The sequence of these tests matters: each uses state established
   // in the prior tests. These variables keep track of bits of that state.
