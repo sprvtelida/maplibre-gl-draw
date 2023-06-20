@@ -186,7 +186,7 @@ test('Options test', (t) => {
     const styles = [
       {
         'id': 'custom-polygon.cold',
-        'source': 'mapbox-gl-draw-cold',
+        'source': 'maplibre-gl-draw-cold',
         'type': 'fill',
         'filter': ['all', ['==', '$type', 'Polygon']],
         'paint': {
@@ -195,7 +195,7 @@ test('Options test', (t) => {
       },
       {
         'id': 'custom-point.cold',
-        'source': 'mapbox-gl-draw-cold',
+        'source': 'maplibre-gl-draw-cold',
         'type': 'circle',
         'filter': ['all', ['==', '$type', 'Point']],
         'paint': {
@@ -204,7 +204,7 @@ test('Options test', (t) => {
       },
       {
         'id': 'custom-polygon.hot',
-        'source': 'mapbox-gl-draw-hot',
+        'source': 'maplibre-gl-draw-hot',
         'type': 'fill',
         'filter': ['all', ['==', '$type', 'Polygon']],
         'paint': {
@@ -213,7 +213,7 @@ test('Options test', (t) => {
       },
       {
         'id': 'custom-point.hot',
-        'source': 'mapbox-gl-draw-hot',
+        'source': 'maplibre-gl-draw-hot',
         'type': 'circle',
         'filter': ['all', ['==', '$type', 'Point']],
         'paint': {
