@@ -7,7 +7,7 @@ Adds support for drawing and editing features on [maplibre-gl.js](https://maplib
 ### Installing
 
 ```
-npm install @hyvilo/maplibre-gl-draw
+npm install @telida/maplibre-gl-draw
 ```
 
 Draw ships with CSS, make sure you include it in your build.
@@ -20,19 +20,13 @@ Draw ships with CSS, make sure you include it in your build.
 
 ```js
 import maplibregl from 'maplibre-gl';
-import MapLibreDraw from "@mapbox/mapbox-gl-draw";
-```
-
-**When using a CDN**
-
-```html
-<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.4.1/mapbox-gl-draw.js'></script>
+import MapLibreDraw from "@telida/mapbox-gl-draw";
 ```
 
 #### CSS
 
  ```js
-import '@hyvilo/maplibre-gl-draw/dist/maplibre-gl-draw.css'
+import '@telida/maplibre-gl-draw/dist/maplibre-gl-draw.css'
  ```
 
 ### Typescript
