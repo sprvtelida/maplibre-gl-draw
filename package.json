@@ -1,9 +1,9 @@
 {
-  "name": "@hyvilo/maplibre-gl-draw",
+  "name": "@telida/maplibre-gl-draw",
   "version": "1.4.1",
   "description": "A drawing component for Maplibre GL JS",
   "homepage": "https://github.com/mapbox/mapbox-gl-draw",
-  "author": "hyvilo",
+  "author": "telida",
   "license": "ISC",
   "main": "dist/maplibre-gl-draw.js",
   "browser": "dist/maplibre-gl-draw.js",
@@ -24,11 +24,12 @@
     "start": "run-p watch  start-server"
   },
   "files": [
-    "dist/maplibre-gl-draw*"
+    "dist/maplibre-gl-draw*",
+    "src"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hyvilo/maplibre-gl-draw.git"
+    "url": "git://github.com/sprvtelida/maplibre-gl-draw.git"
   },
   "keywords": [
     "webgl",
@@ -37,7 +38,7 @@
     "drawing"
   ],
   "bugs": {
-    "url": "https://github.com/hyvilo/maplibre-gl-draw/issues"
+    "url": "https://github.com/sprvtelida/maplibre-gl-draw/issues"
   },
   "nyc": {
     "sourceMap": false,
